@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# Write a function that returns a list with all values 
-# multiplied by a number without using any loops
+# Write a function that returns a list with all values
 
 
 def multiply_list_map(my_list=[], number=0):
