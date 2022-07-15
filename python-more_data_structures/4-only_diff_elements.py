@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 # A function that returns a set of all elements present
 # in only one set
 
