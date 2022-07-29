@@ -1,17 +1,19 @@
 #!/usr/bin/python3
-"""Defines a class Square that inherits from Reactable."""
+"""
+Contains the class BaseGeometry and subclass Rectangle
+"""
+
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    '''Represent a square.'''
-
+    """A representation of a square"""
     def __init__(self, size):
-        """Intialize a new Rectangle.
-         Args:
-            width (int): The width of the new Rectangle.
-            height (int): The height of the new Rectangle.
-        """
-        self.integer_validator('size', size)
-        super().__init__(size, size)
+        """instantiation of the square"""
+        self.integer_validator("size", size)
         self.__size = size
+        super().__init__(size, size)
+
+    def area(self):
+        """"returns the area of the square"""
+        return self.__size ** 2
