@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Lists all states from the database hbtn_0e_0_usa with 
+Lists all states from the database hbtn_0e_0_usa with
 a given name and is safe from MySQL injections
 """
 
